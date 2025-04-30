@@ -1,0 +1,80 @@
+{
+    "start_date": "2024-12-02",
+    "products": [
+        {
+            "product": "GB-0001",
+            "category": "Category A",
+            "price": 10
+        },
+        {
+            "product": "GB-0002",
+            "category": "Category A",
+            "price": 20
+        },
+        {
+            "product": "GB-0003",
+            "category": "Category B",
+            "price": 30
+        }
+    ],
+    "customers": {
+        "units_ordered_per_day_per_customer": 3,
+        "number_of_customers_per_day": 100
+    },
+    "stores": [
+        {
+            "name": "Store A",
+            "location": "location_1",
+            "products": [
+                {
+                    "product": "GB-0001",
+                    "starting_stock_levels": 34
+                },
+                {
+                    "product": "GB-0002",
+                    "starting_stock_levels": 32
+                },
+                {
+                    "product": "GB-0003",
+                    "starting_stock_levels": 31
+                }
+            ]
+        },
+        {
+            "name": "Store B",
+            "location": "location_2",
+            "products": [
+                {
+                    "product": "GB-0001",
+                    "starting_stock_levels": 51
+                },
+                {
+                    "product": "GB-0002",
+                    "starting_stock_levels": 20
+                },
+                {
+                    "product": "GB-0003",
+                    "starting_stock_levels": 34
+                }
+            ]
+        },
+        {
+            "name": "Store C",
+            "location": "location_3",
+            "products": [
+                {
+                    "product": "GB-0001",
+                    "starting_stock_levels": 10
+                },
+                {
+                    "product": "GB-0002",
+                    "starting_stock_levels": 68
+                },
+                {
+                    "product": "GB-0003",
+                    "starting_stock_levels": 100
+                }
+            ]
+        }
+    ]
+}
