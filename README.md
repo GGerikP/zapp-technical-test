@@ -39,7 +39,7 @@ This would normally be build with a persistent layer system on it so a lot of wo
 
 Being that this is only a script and provides no additional services, I've not taken the time to put this into a container for deployment.
 
-**Lack of Unit Tests**
+**Unit Tests**
 
 There is a lack of unit tests on this service, but this is due to it being a test and I focused more on getting the core work done.
 
